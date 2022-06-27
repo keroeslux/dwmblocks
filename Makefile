@@ -27,6 +27,8 @@ clean:
 
 install: dwmblocks
 	mkdir -p ${DESTDIR}${PREFIX}/bin
+	mkdir -p /opt/kdwmblocks/
+	cp scripts/pac-update.sh /opt/kdwmblocks/
 	cp -f dwmblocks ${DESTDIR}${PREFIX}/bin
 	chmod 755 ${DESTDIR}${PREFIX}/bin/dwmblocks
 

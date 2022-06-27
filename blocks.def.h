@@ -1,7 +1,7 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-    {"", "sh scripts/pac-update.sh",                    5,      0}, 
+    {"", "sh /opt/kdwmblocks/pac-update.sh",                    5,      0}, 
 	{"", "date '+%b %d (%a) %I:%M%p'",					5,		0},
 };
 
