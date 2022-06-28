@@ -3,6 +3,7 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
     {"", "sh /opt/kdwmblocks/pac-update.sh",                    5,      0}, 
     {"", "sh /opt/kdwmblocks/battery.sh",                      10,     0},
+    {"", "sh /opt/kdwmblocks/cpu.sh",                           2       0},
 	{"", "date '+%b %d (%a) %I:%M%p'",					5,		0},
 };
 
